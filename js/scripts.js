@@ -5,10 +5,16 @@ $(document).ready(function() {
     let pizza = $("input[name='pizza']:checked").val();
     let band = $("input[name='band']:checked").val();
     let time = $("input[name='time']:checked").val();
+    let adventure = $("input[name='adventure']:checked").val();
+    let movie = $("input[name='movie']:checked").val();
+
 
       console.log(pizza);
       console.log(band);
       console.log(time);
+      console.log(adventure);
+      console.log(movie);
+
 
     if (pizza === 'cheese' && band === 'mcgraw' || time === 'couch') {
       $('#pizzaCheese').show();
@@ -16,13 +22,15 @@ $(document).ready(function() {
       $('#pizzaPep').show();
     } else if (pizza === 'mush' && band === 'kiwanuka' || time === 'pizza') {
       $('#pizzaMush').show();
-    } else if (aventure === 'amazon' && movie === 'gump') {
+    } else if (adventure === 'amazon' && movie === 'gump') {
       $('#movieGump').show();
-    } else if (aventure === 'burning' && movie === 'gem') {
+    } else if (adventure === 'burning' && movie === 'gem') {
       $('#movieGem').show();
-    } else if (aventure === 'machu' && movie === 'nobody') {
+    } else if (adventure === 'machu' && movie === 'nobody') {
       $('#movieNobody').show();
-    } 
+    } else {
+      $('#not').show();
+    }
       
       
   });
