@@ -8,6 +8,9 @@ $(document).ready(function() {
     let adventure = $("input[name='adventure']:checked").val();
     let movie = $("input[name='movie']:checked").val();
 
+    $('#pizzaCheese').show();
+    $('#pizzaPep').show();
+
 
       console.log(pizza);
       console.log(band);
