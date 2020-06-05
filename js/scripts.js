@@ -7,11 +7,11 @@ $(document).ready(function() {
       console.log(pizza);
       console.log(band);
 
-    if (pizza === 'cheese') {
+    if (pizza === 'cheese' && band === 'mcgraw') {
       $('#pizzaCheese').show();
-    } else if (pizza === 'pep') {
+    } else if (pizza === 'pep' && band === 'bon') {
       $('#pizzaPep').show();
-    } else if (pizza === 'mush') {
+    } else if (pizza === 'mush' && band === 'kiwanuka"') {
       $('#pizzaMush').show();
     }
       
