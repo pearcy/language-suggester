@@ -8,8 +8,13 @@ $(document).ready(function() {
     let adventure = $("input[name='adventure']:checked").val();
     let movie = $("input[name='movie']:checked").val();
 
-    $('#pizzaCheese').show();
-    $('#pizzaPep').show();
+    $('#pizzaCheese').hide();
+    $('#pizzaPep').hide();
+    $('#pizzaMush').hide();
+    $('#movieGump').hide();
+    $('#movieGem').hide();
+    $('#movieNobody').hide();
+    $('#not').hide();
 
 
       console.log(pizza);
@@ -21,10 +26,10 @@ $(document).ready(function() {
 
     if (pizza === 'cheese' && band === 'mcgraw' || time === 'couch') {
       $('#pizzaCheese').show();
-    } else if (pizza === 'pep' && band === 'bon' || time === 'jog' ) {
-      $('#pizzaPep').show();
-    } else if (pizza === 'mush' && band === 'kiwanuka' || time === 'pizza') {
-      $('#pizzaMush').show();
+    // } else if (pizza === 'pep' && band === 'bon' || time === 'jog' ) {
+    //   $('#pizzaPep').show();
+    // } else if (pizza === 'mush' && band === 'kiwanuka' || time === 'pizza') {
+    //   $('#pizzaMush').show();
     } else if (adventure === 'amazon' && movie === 'gump') {
       $('#movieGump').show();
     } else if (adventure === 'burning' && movie === 'gem') {
