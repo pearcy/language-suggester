@@ -5,10 +5,14 @@ $(document).ready(function() {
     let pizza = $("input[name='pizza']:checked").val();
       console.log(pizza);
 
-    if (pizza === "cheese") {
-      $()
+    if (pizza === 'cheese') {
+      $('#pizzaCheese').show();
+    } else if (pizza === 'pep') {
+      $('#pizzaPep').show();
+    } else if (pizza === 'mush') {
+      $('#pizzaMush').show();
     }
-
+      
 
 
   });
