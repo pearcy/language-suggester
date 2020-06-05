@@ -16,7 +16,14 @@ $(document).ready(function() {
       $('#pizzaPep').show();
     } else if (pizza === 'mush' && band === 'kiwanuka' || time === 'pizza') {
       $('#pizzaMush').show();
-    } else if ()
+    } else if (aventure === 'amazon' && movie === 'gump') {
+      $('#movieGump').show();
+    } else if (aventure === 'burning' && movie === 'gem') {
+      $('#movieGem').show();
+    } else if (aventure === 'machu' && movie === 'nobody') {
+      $('#movieNobody').show();
+    } 
+      
       
   });
 
