@@ -15,6 +15,7 @@ $(document).ready(function() {
     $('#movieGem').hide();
     $('#movieNobody').hide();
     $('#not').hide();
+    $('#notSure').hide();
 
 
       console.log(pizza);
@@ -24,12 +25,12 @@ $(document).ready(function() {
       console.log(movie);
 
 
-    if (pizza === 'cheese' && band === 'mcgraw' || time === 'couch') {
+    if (time === 'couch') {
+      $('#not').show();
+    } else if (pizza === 'mush' || band === 'kiwanuka' && time != 'couch') {
+      $('#pizzaMush').show();
+    } else if (pizza === 'cheese' || band === 'mcgraw' && time != 'couch') {
       $('#pizzaCheese').show();
-    // } else if (pizza === 'pep' && band === 'bon' || time === 'jog' ) {
-    //   $('#pizzaPep').show();
-    // } else if (pizza === 'mush' && band === 'kiwanuka' || time === 'pizza') {
-    //   $('#pizzaMush').show();
     } else if (adventure === 'amazon' && movie === 'gump') {
       $('#movieGump').show();
     } else if (adventure === 'burning' && movie === 'gem') {
@@ -37,10 +38,13 @@ $(document).ready(function() {
     } else if (adventure === 'machu' && movie === 'nobody') {
       $('#movieNobody').show();
     } else {
-      $('#not').show();
+      $('#notSure').show();
     }
       
       
   });
 
 });
+
+
+pizza === 'mush' || band === 'kiwanuka' && time != 'couch'
