@@ -7,7 +7,7 @@
 
 ## Description
 
-A helpful quiz that will direct any wannabe nerd to the right programming language start with. 
+A helpful quiz that will direct any wannabe nerd to the right programming language to start with. This is fun and best taken when family and friends are present.  
  
 
 ## Project Requirements
