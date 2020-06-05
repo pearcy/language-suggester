@@ -16,7 +16,7 @@ $(document).ready(function() {
       $('#pizzaPep').show();
     } else if (pizza === 'mush' && band === 'kiwanuka' || time === 'pizza') {
       $('#pizzaMush').show();
-    }
+    } else if ()
       
   });
 
