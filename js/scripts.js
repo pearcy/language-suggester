@@ -27,9 +27,9 @@ $(document).ready(function() {
 
     if (time === 'couch') {
       $('#not').show();
-    } else if (pizza === 'mush' || band === 'kiwanuka' && time != 'couch') {
+    } else if (pizza === 'mush' && band === 'kiwanuka') {
       $('#pizzaMush').show();
-    } else if (pizza === 'cheese' || band === 'mcgraw' && time != 'couch') {
+    } else if (pizza === 'cheese' && band === 'mcgraw') {
       $('#pizzaCheese').show();
     } else if (adventure === 'amazon' && movie === 'gump') {
       $('#movieGump').show();
@@ -46,5 +46,3 @@ $(document).ready(function() {
 
 });
 
-
-pizza === 'mush' || band === 'kiwanuka' && time != 'couch'
