@@ -18,6 +18,16 @@ A helpful quiz that will direct any wannabe nerd to the right programming langua
 - Use form to gather input from users.
 - Link to Github repository
 
+
+## Setup/Installation Requirements
+
+To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer.
+
+* Clone this repository.
+* Go into the repository.
+* Navigate to index.html file.
+* Right click and open in the browser of your choice.
+
 ## Known Bugs
 
 _No known bugs_

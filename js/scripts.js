@@ -18,12 +18,6 @@ $(document).ready(function() {
     $('#notSure').hide();
 
 
-      console.log(pizza);
-      console.log(band);
-      console.log(time);
-      console.log(adventure);
-      console.log(movie);
-
 
     if (time === 'couch') {
       $('#not').show();
